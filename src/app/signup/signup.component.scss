@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  section {
+    margin: 1rem auto;
+    padding: 1rem;
+    h1 {
+      text-transform: uppercase;
+      color: crimson;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bolder;
+    }
+    h2 {
+      font-size: 1rem;
+      color: gray;
+      width: 55%;
+      margin: 1rem auto;
+      text-align: center;
+    }
+  }
+  hr {
+    width: 60%;
+  }
+  form {
+    fieldset {
+      border: none;
+      margin: 1rem auto;
+      legend {
+        text-transform: uppercase;
+        margin: 1rem 0;
+      }
+      input {
+        font-size: 2rem;
+        padding: 1rem;
+        &:disabled {
+          background-color: #4f4f4f;
+          color: white;
+        }
+      }
+    }
+  }
+}

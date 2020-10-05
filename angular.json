@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rea-test"
+    }
+  },
+  "defaultProject": "rea-test",
+  "cli": {
+    "analytics": "95eb1014-8a05-496a-97b0-bda3c9dee93e"
+  }
 }

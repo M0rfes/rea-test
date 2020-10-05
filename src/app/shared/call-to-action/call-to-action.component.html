@@ -1,0 +1,7 @@
+<div>
+  <h2>{{ title }}</h2>
+  <ng-content *ngIf="!subTitle; else sub"></ng-content>
+  <ng-template #sub>
+    <pre>{{ subTitle }}</pre>
+  </ng-template>
+</div>
